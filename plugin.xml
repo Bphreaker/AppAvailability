@@ -39,14 +39,13 @@
     <!-- Android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
+                <queries>
+                        <package android:name="com.example.store" />
+                        <package android:name="com.wingmanalpha.app.evermind" />
+                </queries>
             <feature name="AppAvailability">
                 <param name="android-package" value="com.ohh2ahh.appavailability.AppAvailability" />
             </feature>
-                <queries>
-                        <intent>
-                                <package android:name="com.wingmanalpha.app.evermind" />
-                        </intent>
-                </queries>
         </config-file>
         <source-file src="src/android/AppAvailability.java" target-dir="src/com/ohh2ahh/appavailability/" />
     </platform>
