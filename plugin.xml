@@ -42,12 +42,9 @@
             <feature name="AppAvailability">
                 <param name="android-package" value="com.ohh2ahh.appavailability.AppAvailability" />
             </feature>
-                
-                <manifest package="com.wingmanalpha.app.evermind">
-                        <queries>
-                                <package android:name="com.wingmanalpha.app.evermind" />
-                        </queries>
-                </manifest>
+                <queries>
+                        <package android:name="com.wingmanalpha.app.evermind" />
+                </queries>
         </config-file>
         <source-file src="src/android/AppAvailability.java" target-dir="src/com/ohh2ahh/appavailability/" />
     </platform>
