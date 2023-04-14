@@ -10,6 +10,8 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageInfo;
 
+import java.util.List;
+
 public class AppAvailability extends CordovaPlugin {
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
@@ -34,6 +36,8 @@ public class AppAvailability extends CordovaPlugin {
         }
     
     }*/
+    
+   
     
     
     private void checkAvailability(String uri, CallbackContext callbackContext) {
