@@ -42,6 +42,7 @@
                  <queries>
                         <package android:name="com.wingmanalpha.app.evermind" />
                 </queries>
+                 <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
         </config-file>   
             
         <config-file target="res/xml/config.xml" parent="/*">
