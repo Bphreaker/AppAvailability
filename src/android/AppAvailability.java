@@ -62,8 +62,8 @@ public class AppAvailability extends CordovaPlugin {
             try {
                 callbackContext.success("App URI is installed.");
             } 
-            catch(JSONException e) {
-                callbackContext.error("Error: "+e);    
+            catch(Exception e) {
+                callbackContext.error("Error: "+e.getMessage());    
             }
         }
         else {
