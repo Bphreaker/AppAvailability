@@ -1,3 +1,6 @@
+# This repository has become obsolete. Please use this one instead: https://github.com/kelter-antunes/AppAvailability
+
+
 # AppAvailability for iOS and Android
 
 [![GitHub version](https://badge.fury.io/gh/ohh2ahh%2FAppAvailability.svg)](https://badge.fury.io/gh/ohh2ahh%2FAppAvailability) [![npm version](https://badge.fury.io/js/cordova-plugin-appavailability.svg)](https://badge.fury.io/js/cordova-plugin-appavailability)
